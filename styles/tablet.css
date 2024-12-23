@@ -1,0 +1,22 @@
+@media (width < 1024px) {
+  .header__theme-menu {
+    justify-self: end;
+    align-self: center;
+  }
+  
+  .header__theme-menu-list {
+    grid-template-columns: 1fr;
+  }
+
+  .content__block {
+    gap: 23px;
+  }
+
+  .content__block_invert {
+    row-gap: 19px;
+  }
+
+  .content__block_invert .content__details {
+    grid-template-columns: 1fr;
+  }
+}
