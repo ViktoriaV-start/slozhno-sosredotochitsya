@@ -35,10 +35,10 @@
 
   .content__block {
     grid-template-columns: 1fr;
-    margin-block-end: 50px;
+    margin-block-end: 49px;
     gap: 20px;
   }
-  
+
   .content__text-title {
     line-height: 129%;
 }
@@ -46,28 +46,28 @@
   .pictures__thesis {
     margin-block-end: 10px;
   }
-    
+
   .pictures__images {
     grid-template-columns: 1fr;
     gap: 10px;
   }
-  
+
   .pictures__img {
     object-fit: contain;
   }
-  
+
   .pictures__img:first-child {
     grid-column: initial;
   }
 
   .pictures__img:nth-child(2) {
     grid-row: initial;
-  } 
-  
+  }
+
   .pictures__img:nth-child(3) {
     grid-row: initial;
   }
-  
+
   .pictures__img:last-child {
     grid-column: initial;
   }
